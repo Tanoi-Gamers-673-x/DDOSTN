@@ -1,6 +1,6 @@
-#The Creator By Tanoi Gamers
+#The Creator By APT 2600
 #Scirpt about DDosAttack Websites
-#Youtube is Tanoi Gamers
+#Youtube is APT 2600
 
 import sys
 import os
@@ -35,7 +35,7 @@ bytes = random._urandom(12550)
 os.system("clear")
 os.system("figlet DDOSTN")
 print "\033[35m"
-print "Creator  : Tanoi Gamers"
+print "Creator  : APT 2600"
 print "Codename : TN-02"
 print "Version  : 0.2"
 print "github   : https://github.com/Tanoi-Gamers-673-x"
@@ -48,7 +48,7 @@ os.system("clear")
 print "\033[35m"
 print
 os.system("figlet -f slant DDOS Starting | lolcat -a")
-print "\033[1m\033[32m Tanoi Gamers"
+print "\033[1m\033[32m APT 2600"
 print "\033[56m"
 print "[                    ] 0% "
 time.sleep(3)
