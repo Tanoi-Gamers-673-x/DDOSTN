@@ -1,0 +1,4 @@
+#!/usr/bin
+cd
+cd DDOSTN
+python2 DDOSTN.py
